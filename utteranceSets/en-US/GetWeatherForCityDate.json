@@ -1,0 +1,21 @@
+{
+  "name": "com.weatherbot.artifacts.getWeatherEvent",
+  "slots": [
+    {
+      "name": "cityName",
+      "type": "AMAZON.US_CITY"
+    },
+    {
+      "name": "date",
+      "type": "AMAZON.DATE"
+    }
+  ],
+  "samples": [
+    "What's the weather {date} in {cityName}",
+    "what is the weather {date}",
+    "How is the weather {date}",
+    "How is weather in {cityName} {date}",
+    "how is weather",
+    "can you please give me weather report for {date}"
+  ]
+}

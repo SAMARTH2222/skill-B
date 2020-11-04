@@ -1,0 +1,7 @@
+src/
+*.acdl
+metadata/
+*.lst
+logs/
+*.log
+.ask/

@@ -1,0 +1,20 @@
+{
+  "version": "0.1",
+  "arguments": {},
+  "templates": {
+    "prompt": {
+      "name": "AlexaConversationsNotifyFailure",
+      "type": "APL-A"
+    },
+    "reprompt": null,
+    "display": null
+  },
+  "situations": [
+    {
+      "when": "",
+      "dialogAct": {
+        "type": "Failure"
+      }
+    }
+  ]
+}

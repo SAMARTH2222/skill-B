@@ -1,0 +1,22 @@
+import com.amazon.ask.types.builtins.AMAZON.*
+import com.weatherbot.artifacts.*
+import GetWeatherResponse
+import com.skill.packageA.types.CityName
+
+type WeatherResult {
+    CityName cityName
+    NUMBER highTemp
+    NUMBER lowTemp
+}
+
+action WeatherResult getWeather(CityName cityName, DATE date)
+
+dialog Weather {
+    sample {
+        weatherRequest = receiveInvocation(getWeatherEvent)
+        cityName = weatherRequest.slots.cityName.value
+        weatherResult = getWeather(cityName, date = weatherRequest.slots.date.value)
+        respond(GetWeatherResponse, {weatherResult = weatherResult})
+    }
+}
+

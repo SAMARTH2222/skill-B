@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "arguments": {
+    "weatherResult": "WeatherResult"
+  },
+  "templates": {
+    "prompt": {
+      "name": "notify_api_response_GetWeather_apla",
+      "type": "APL-A"
+    },
+    "reprompt": null,
+    "display": null
+  },
+  "situations": [
+    {
+      "when": "",
+      "dialogAct": {
+        "type": "Notify",
+        "result": "SUCCESS",
+        "api": "getWeather",
+        "and": null
+      }
+    }
+  ]
+}

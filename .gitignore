@@ -1,0 +1,8 @@
+.DS_Store
+metadata/
+*.lst
+logs/
+*.log
+.ask/
+node_modules/
+package-lock.json

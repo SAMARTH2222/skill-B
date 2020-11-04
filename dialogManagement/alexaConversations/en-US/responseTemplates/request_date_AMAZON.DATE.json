@@ -1,0 +1,25 @@
+{
+    "version": "0.1",
+    "arguments": {},
+    "templates": {
+      "prompt": {
+        "name": "request_date_AMAZON_DATE_apla",
+        "type": "APL-A"
+      },
+      "reprompt": null,
+      "display": null
+    },
+    "situations": [
+      {
+        "when": "",
+        "dialogAct": {
+          "type": "Request",
+          "api": "getWeather",
+          "arguments": [
+            "date"
+          ],
+          "and": null
+        }
+      }
+    ]
+  }

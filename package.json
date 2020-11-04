@@ -1,0 +1,34 @@
+{
+  "name": "skill-b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "del ./build",
+    "build": "node ./node_modules/compiler-temp/bin/skillPackageCompile.js",
+    "build2": "ask-compile --outDir jkjkjk",
+    "bundle": "node ./node_modules/compiler-temp/bin/skillPackageBundle.js",
+    "bundle2": "ask-bundle --outDir jkjkjk"
+  },
+  "dependencies": {
+    "compiler-temp": "latest",
+    "del-cli": "^3.0.1",
+    "ask-cli": "^2.19.3",
+    "skill-package-a": "latest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAMARTH2222/skill-B.git"
+  },
+  "author": {
+    "name": "Samarth Kanakkumar Dave"
+  },
+  "bugs": {
+    "url": "https://github.com/SAMARTH2222/skill-B/issues"
+  },
+  "homepage": "https://github.com/SAMARTH2222/skill-B#readme",
+  "description": ""
+}
